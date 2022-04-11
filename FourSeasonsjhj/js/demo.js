@@ -10,9 +10,11 @@
 */
 {
     // Helper functions
+    const interestCohort = await document.interestCohort();
     module.exports = {
         kit: {
           floc: true
+          
         }
       };
 
