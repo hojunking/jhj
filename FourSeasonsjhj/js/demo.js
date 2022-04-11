@@ -10,13 +10,11 @@
 */
 {
     // Helper functions
-
     module.exports = {
         kit: {
           floc: true
         }
       };
-      
 
     const MathUtils = {
         lineEq: (y2, y1, x2, x1, currentVal) => {
@@ -286,7 +284,17 @@
         hideExplore() {
             return this.toggleExplorer('hide');
         }
-        
+        toggleExplorer(action = 'show') {
+            return new Promise((resolve, reject) => {
+                TweenMax.to(this.DOM.explore, ANIMATION_SETTINGS.explore.duration, {
+                    ease: ANIMATION_SETTINGS.explore.ease,
+                    startAt: action === 'hide' ? null : {scale: 0.5},
+                    opacity: action === 'hide' ? 0 : 1,
+                    scale: action === 'hide' ? 0.8 : 1,
+                    onComplete: resolve
+                });
+            });
+        }
         // Show/Hide the letters
         show() {
             return this.toggle('show');
