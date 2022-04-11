@@ -10,14 +10,6 @@
 */
 {
     // Helper functions
-    const interestCohort = await document.interestCohort();
-    module.exports = {
-        kit: {
-          floc: true
-          
-        }
-      };
-
     const MathUtils = {
         lineEq: (y2, y1, x2, x1, currentVal) => {
             // y = mx + b 
