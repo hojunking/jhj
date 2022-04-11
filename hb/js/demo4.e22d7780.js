@@ -6495,15 +6495,15 @@ var defaults = {
   touchMultiplier: 2,
   resetNativeScroll: true,
   tablet: {
-    smooth: true,
-    direction: 'horizontal',
-    gestureDirection: 'horizontal',
+    smooth: false,
+    direction: 'vertical',
+    gestureDirection: 'vertical',
     breakpoint: 1024
   },
   smartphone: {
-    smooth: true,
-    direction: 'horizontal',
-    gestureDirection: 'horizontal'
+    smooth: false,
+    direction: 'vertical',
+    gestureDirection: 'vertical'
   }
 };
 
