@@ -6496,14 +6496,14 @@ var defaults = {
   resetNativeScroll: true,
   tablet: {
     smooth: true,
-    direction: 'vertical',
-    gestureDirection: 'vertical',
+    direction: 'horizontal',
+    gestureDirection: 'horizontal',
     breakpoint: 1024
   },
   smartphone: {
     smooth: true,
-    direction: 'vertical',
-    gestureDirection: 'vertical'
+    direction: 'horizontal',
+    gestureDirection: 'horizontal'
   }
 };
 
