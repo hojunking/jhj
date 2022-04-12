@@ -8,6 +8,7 @@
 	font-size: 16px;
 }
 
+
 body {
 	margin: 0;
 	--color-text: #dc6e25;
@@ -22,18 +23,13 @@ body {
 	background-color: var(--color-bg);
 	font-family: 'KOHIBaeumOTF';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KOHIBaeumOTF.woff') format('woff');
-    
+	font-weight: normal;
+    font-style: normal;
 	font-size: 1.5rem;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
-@font-face {
-    font-family: 'KOHIBaeumOTF';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KOHIBaeumOTF.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 .demo-1 {
 	--color-text: #E5EFC1;
@@ -43,7 +39,8 @@ body {
 	font-size: 1.25rem;
 	font-family: 'KOHIBaeumOTF';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KOHIBaeumOTF.woff') format('woff');
-    
+    font-weight: normal;
+    font-style: normal;
 	--size-title: 15vw;
 }
 
@@ -132,6 +129,13 @@ body {
 	background: var(--color-link);
 	animation: loaderAnim 0.7s linear infinite alternate forwards;
 }
+@font-face {
+	font-family: 'KOHIBaeumOTF';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KOHIBaeumOTF.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 @keyframes loaderAnim {
 	to {
