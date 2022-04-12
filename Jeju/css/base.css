@@ -20,19 +20,30 @@ body {
 	--font-weight-title: 400;
 	color: var(--color-text);
 	background-color: var(--color-bg);
-	font-family: turquoise, serif;
+	font-family: 'KOHIBaeumOTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KOHIBaeumOTF.woff') format('woff');
+    
 	font-size: 1.5rem;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+    font-family: 'KOHIBaeumOTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KOHIBaeumOTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .demo-1 {
-	--color-text: #111;
-	--color-bg: #bad5ca;
+	--color-text: #E5EFC1;
+	--color-bg: #B7CADB;
 	--color-link-hover: #5c4541;
 	--aspect-ratio: 32/17;
 	font-size: 1.25rem;
-	font-family: ivymode, sans-serif;
+	font-family: 'KOHIBaeumOTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KOHIBaeumOTF.woff') format('woff');
+    
 	--size-title: 15vw;
 }
 
