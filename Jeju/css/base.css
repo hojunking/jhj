@@ -434,7 +434,7 @@ a:focus {
 	left: 10vw;
 	height: 30%;
 	width: 1px;
-	background: #d79612;
+	/* background: #d79612; */
 }
 
 .content__item-decobar {
